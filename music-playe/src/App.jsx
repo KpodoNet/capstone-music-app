@@ -30,8 +30,11 @@ function App() {
       />
       <TrackList tracks={tracks} onSelect={setSelectedTrack} />
       <AudioPlayer track={selectedTrack} />
+      
+
     </div>
   );
+
 }
 
 export default App;
